@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="assets/icons/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="assets/icons/favicon-32x32.png"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="cert-header">
+    <a class="home-ref" href="index.html" style="text-decoration: none; color: inherit;"><h1>Jett Kiker</h1></a>
+  </nav>
+
+<!-- Certificates -->
+  <section class="certification-container">
+    <h1>My Certificates</h1>
+    <!-- GDSC img cert -->
+    <div class="certificates">
+      <div class="certificate">
+        <img src="imgs/GDSC_Logo.png" alt="UI/UX Design Certificate" onclick="openModal('certifications/UI_UX_TXDSCTTUUIF230920030003.png')">
+        <p>UI/UX Certificate</p>
+      </div>
+      <!-- PDF CERTS -->
+      <div class="certificate">
+        <img src="imgs/Microsoft_Logo.png" alt="Microsoft Cert 1" onclick="openPDF('certifications/Introduction to Networking and Cloud Computing.pdf')">
+        <p>Introduction to Networking and Cloud Computing</p>
+      </div>
+      <div class="certificate">
+        <img src="imgs/Microsoft_Logo.png" alt="Microsoft Cert 2" onclick="openPDF('certifications/Introduction to Computers and Operating Systems and Security.pdf')">
+        <p>Introduction to Computers and Operating Systems and Security</p>
+      </div>
+      <div class="certificate">
+        <img src="imgs/Microsoft_Logo.png" alt="Microsoft Cert 3" onclick="openPDF('certifications/Cybersecurity Threat Vectors and Mitigation.pdf')">
+        <p>Cybersecurity Threat Vectors and Mitigation</p>
+      </div>
+      <div class="certificate">
+        <img src="imgs/Microsoft_Logo.png" alt="Microsoft Cert 4" onclick="openPDF('certifications/Cybersecurity Solutions and Microsoft Defender.pdf')">
+        <p>Cybersecurity Solutions and Microsoft Defender</p>
+      </div>
+      <div class="certificate">
+        <img src="imgs/Microsoft_Logo.png" alt="Microsoft Cert 5" onclick="openPDF('certifications/Cybersecurity Identity and Access Solutions using Azure AD.pdf')">
+        <p>Cybersecurity Identity and Access Solutions using Azure AD</p>
+      </div>
+    </div>
+  </section>
+    
+  <h2 class="more-come-heading">MORE TO COME...</h2>
+
+
+
+<!-- back ground animation -->     
+  <div class="box-of-star1">
+    <div class="star star-position1"></div>
+    <div class="star star-position2"></div>
+    <div class="star star-position3"></div>
+    <div class="star star-position4"></div>
+    <div class="star star-position5"></div>
+    <div class="star star-position6"></div>
+    <div class="star star-position7"></div>
+    <div class="star star-position8"></div>
+    <div class="star star-position9"></div>
+  </div>
+  <div class="box-of-star2">
+    <div class="star star-position1"></div>
+    <div class="star star-position2"></div>
+    <div class="star star-position3"></div>
+    <div class="star star-position4"></div>
+    <div class="star star-position5"></div>
+    <div class="star star-position6"></div>
+    <div class="star star-position7"></div>
+    <div class="star star-position8"></div>
+    <div class="star star-position9"></div>
+  </div>
+  <div class="box-of-star3">
+    <div class="star star-position1"></div>
+    <div class="star star-position2"></div>
+    <div class="star star-position3"></div>
+    <div class="star star-position4"></div>
+    <div class="star star-position5"></div>
+    <div class="star star-position6"></div>
+    <div class="star star-position7"></div>
+    <div class="star star-position8"></div>
+    <div class="star star-position9"></div>
+  </div>
+  <div class="box-of-star4">
+    <div class="star star-position1"></div>
+    <div class="star star-position2"></div>
+    <div class="star star-position3"></div>
+    <div class="star star-position4"></div>
+    <div class="star star-position5"></div>
+    <div class="star star-position6"></div>
+    <div class="star star-position7"></div>
+    <div class="star star-position8"></div>
+    <div class="star star-position9"></div>
+  </div>
+  <div data-js="astro" class="astronaut">
+    <div class="head"></div>
+    <div class="arm arm-left"></div>
+    <div class="arm arm-right"></div>
+    <div class="body">
+      <div class="panel"></div>
+    </div>
+    <div class="leg leg-left"></div>
+    <div class="leg leg-right"></div>
+    <div class="schoolbag"></div>
+  </div>
+
+
+
+  <!-- Modal for viewing certificates -->
+  <div id="certModal" class="modal">
+    <span class="close" onclick="document.getElementById('certModal').style.display='none'">&times;</span>
+    <img class="modal-content" id="certImg">
+    <div id="caption"></div>
+  </div>
+  
+  <!-- Scroll to top -->
+  <button id="scroll-to-top" title="Scroll to top">
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </button>
+
+  <!--script -->
+  <script src="script.js"></script>
+  <!-- Ion icons scripts -->
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</body>
