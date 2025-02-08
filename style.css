@@ -86,12 +86,12 @@ nav {
 
 .nav-content-container h1:first-child {
   position: absolute;
-  left: 20px;
+  left: 125px;
 }
 
 .nav-content-container h1:last-child {
   position: absolute;
-  right: 20px;
+  right: 160px;
 }
 
 nav h1 {
