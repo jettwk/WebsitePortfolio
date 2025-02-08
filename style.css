@@ -81,16 +81,13 @@ nav {
   align-items: center;
   justify-content: center;
   width: 100%;
-  position: relative;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.nav-content-container .vl {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
+
 
 .nav-content-container h1:first-child {
   position: absolute;
