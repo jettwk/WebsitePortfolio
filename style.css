@@ -112,6 +112,10 @@ nav {
   margin: 0;
 }
 
+.nav-content-container a:hover {
+  border-bottom: none;
+}
+
 .nav-content-container a:hover h1 {
   font-weight: var(--bolder-font);
   transition: all 0.2s ease;
