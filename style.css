@@ -88,6 +88,9 @@ nav {
   transform: translateX(-50%);
 }
 
+.nav-content-container a {
+  color: var(--primary-color);
+}
 
 .nav-content-container h1:first-child {
   position: absolute;
