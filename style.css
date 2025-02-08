@@ -89,14 +89,12 @@ nav {
 }
 
 
-.nav-content-container a:first-child,
 .nav-content-container h1:first-child {
   position: absolute;
   right: 50%;
   margin-right: 20px;
 }
 
-.nav-content-container a:last-child,
 .nav-content-container h1:last-child {
   position: absolute;
   left: 50%;
