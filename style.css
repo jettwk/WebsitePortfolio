@@ -76,9 +76,12 @@ nav {
   color: var(--primary-color);
 }
 
-nav-content-container {
-  justify-content: space-between;
+.nav-content-container {
   display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 nav h1 {
