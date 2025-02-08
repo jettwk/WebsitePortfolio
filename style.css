@@ -58,6 +58,8 @@ body {
 
 
 
+
+
 /* Nav styling */
 nav {
   position: sticky;
@@ -74,11 +76,24 @@ nav {
   color: var(--primary-color);
 }
 
+nav-content-container {
+  justify-content: space-between;
+  display: flex;
+}
+
 nav h1 {
   color: var(--primary-color);
   padding-left: 20px;
   font-family: "Bauhaus 93";
   font-size: 30px;
+}
+
+/* vertical line for nav */
+.vl {
+  border-left: 2px solid var(--primary-color);
+  height: 30px;
+  
+
 }
 
 nav a {
