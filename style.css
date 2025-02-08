@@ -86,9 +86,14 @@ nav {
 
 nav h1 {
   color: var(--primary-color);
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: "Bauhaus 93";
   font-size: 30px;
+}
+
+nav h1:hover {
+  text-decoration: var(--bold-font);
 }
 
 /* vertical line for nav */
