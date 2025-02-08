@@ -90,15 +90,30 @@ nav {
 
 .nav-content-container a {
   color: var(--primary-color);
+  text-decoration: none;
+  font-family: "Bauhaus 93";
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.nav-content-container h1:first-child {
+.nav-content-container a:hover {
+  font-weight: var(--bolder-font);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  transform: scale(1.05);
+  border-bottom: none;
+}
+
+.nav-content-container h1:first-child, 
+.nav-content-container a:first-of-type {
   position: absolute;
   right: 50%;
   margin-right: 20px;
 }
 
-.nav-content-container h1:last-child {
+.nav-content-container h1:last-child,
+.nav-content-container a:last-of-type {
   position: absolute;
   left: 50%;
   margin-left: 20px;
