@@ -79,9 +79,19 @@ nav {
 .nav-content-container {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.nav-content-container h1:first-child {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 20px;
+}
+
+.nav-content-container h1:last-child {
+  position: absolute;
+  right: 20px;
 }
 
 nav h1 {
