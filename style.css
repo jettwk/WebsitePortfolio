@@ -934,6 +934,16 @@ BACKGROUND ANIMATION
   /* Positioned at 90% of the viewport width */
 }
 
+.star-position10 {
+  top: 85px;
+  left: 95vw;
+}
+
+.star-position11 {
+  top: 40px;
+  left: 85vw;
+}
+
 .astronaut {
   width: 250px;
   height: 300px;
