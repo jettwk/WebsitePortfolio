@@ -1125,7 +1125,7 @@ BACKGROUND ANIMATION
 }
 
 .arm-right:before {
-  border-radius50px 50px 120px 0 / 50px 50px 110px 0;
+  border-radius: 50px 50px 120px 0 / 50px 50px 110px 0;
   right: 0;
   background-color: #fbfdfa;
 }
@@ -1536,15 +1536,4 @@ CERTIFICATION PAGE STYLING
   to {
     opacity: 0.7;
   }
-}
-.nav-content-container h1,
-.nav-content-container a {
-  color: var(--primary-color);
-  padding-left: 10px;
-  padding-right: 10px;
-  font-family: "Bauhaus 93";
-  font-size: 30px;
-  margin: 0;
-  line-height: normal;
-  display: inline-block;
 }
