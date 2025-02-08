@@ -86,12 +86,14 @@ nav {
 
 .nav-content-container h1:first-child {
   position: absolute;
-  left: 125px;
+  left: calc(50% - 100px);
+  transform: translateX(-100%) translateX(-15px);
 }
 
 .nav-content-container h1:last-child {
   position: absolute;
-  right: 160px;
+  left: calc(50% + 100px);
+  transform: translateX(-100%) translateX(15px);
 }
 
 nav h1 {
