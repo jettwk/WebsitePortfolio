@@ -889,49 +889,47 @@ BACKGROUND ANIMATION
 
 .star-position1 {
   top: 30px;
-  left: 20px;
+  left: 5vw;
 }
 
 .star-position2 {
   top: 110px;
-  left: 250px;
+  left: 15vw;
 }
 
 .star-position3 {
   top: 60px;
-  left: 570px;
+  left: 25vw;
 }
 
 .star-position4 {
   top: 120px;
-  left: 900px;
+  left: 35vw;
 }
 
 .star-position5 {
   top: 20px;
-  left: 1120px;
+  left: 45vw;
 }
 
 .star-position6 {
   top: 90px;
-  left: 1280px;
+  left: 55vw;
 }
 
 .star-position7 {
   top: 30px;
-  left: 1480px;
+  left: 65vw;
 }
 
 .star-position8 {
   top: 50px;
   left: 75vw;
-  /* Positioned at 75% of the viewport width */
 }
 
 .star-position9 {
   top: 65px;
-  left: 90vw;
-  /* Positioned at 90% of the viewport width */
+  left: 85vw;
 }
 
 .star-position10 {
@@ -941,7 +939,7 @@ BACKGROUND ANIMATION
 
 .star-position11 {
   top: 40px;
-  left: 85vw;
+  left: 90vw;
 }
 
 .astronaut {
