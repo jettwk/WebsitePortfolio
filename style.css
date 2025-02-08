@@ -82,16 +82,26 @@ nav {
   justify-content: center;
   width: 100%;
   position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-content-container .vl {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav-content-container h1:first-child {
   position: absolute;
-  right: calc(50% + 15px);
+  right: 50%;
+  margin-right: 20px;
 }
 
 .nav-content-container h1:last-child {
   position: absolute;
-  left: calc(50% + 15px);
+  left: 50%;
+  margin-left: 20px;
 }
 
 nav h1 {
