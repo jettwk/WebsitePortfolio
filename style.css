@@ -86,11 +86,12 @@ nav {
 
 nav h1 {
   color: var(--primary-color);
-  padding-left: 10px;
+  padding-left: 010px;
   padding-right: 10px;
   font-family: "Bauhaus 93";
   font-size: 30px;
 }
+
 
 nav h1:hover {
   font-weight: var(--bolder-font);
