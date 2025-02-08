@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
 
 /* Variables */
 :root {
@@ -862,7 +863,7 @@ BACKGROUND ANIMATION
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 .star {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'DS-Digital', monospace;
   font-size: 20px;
   color: #00ff00;
   position: absolute;
