@@ -93,7 +93,8 @@ nav h1 {
 }
 
 nav h1:hover {
-  text-decoration: var(--bold-font);
+  font-weight: var(--bolder-font);
+  transition: font-weight 0.2s ease;
 }
 
 /* vertical line for nav */
