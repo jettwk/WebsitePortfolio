@@ -856,23 +856,21 @@ BACKGROUND ANIMATION
   animation: snow 5s -3.30s linear infinite;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 .star {
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #FFF;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  color: #00ff00;
   position: absolute;
   z-index: 10;
   opacity: 0.7;
   margin: 0 1vw;
+  text-shadow: 0 0 5px #00ff00;
 }
 
 .star:before {
-  content: "";
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #FFF;
+  content: "1";
   position: absolute;
   z-index: 10;
   top: 80px;
@@ -881,11 +879,7 @@ BACKGROUND ANIMATION
 }
 
 .star:after {
-  content: "";
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: #FFF;
+  content: "0";
   position: absolute;
   z-index: 10;
   top: 8px;
