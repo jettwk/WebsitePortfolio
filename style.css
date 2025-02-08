@@ -292,7 +292,7 @@ nav ul.show {
   text-align: center;
   margin-top: 2.5rem;
   scroll-margin-top: 100px;
-  color: white;
+  color: var(--primary-color);
 }
 
 .skills-header {
@@ -438,7 +438,7 @@ project-title {
 .contact {
   margin-top: 2rem;
   scroll-margin-top: 100px;
-  color: white;
+  color: var(--primary-color);
 }
 
 .contact h2 {
@@ -1388,10 +1388,10 @@ Mobile Styling
 /*
 CERTIFICATION PAGE STYLING
 */
-.home-ref:hover {
+/*.home-ref:hover {
   text-decoration: none;
   border-bottom: none;
-}
+}*/
 
 .certification-container {
   text-align: center;
@@ -1401,6 +1401,7 @@ CERTIFICATION PAGE STYLING
 .certification-container h1 {
   font-size: 3rem;
   margin-bottom: 20px;
+  color: var(--primary-color);
 }
 
 /* Additions for certificate display in rows of three */
@@ -1520,16 +1521,11 @@ CERTIFICATION PAGE STYLING
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
-  color: black;
-  /* Adjust the color based on your site's theme. */
+  color: var(--primary-color);
   font-size: 2rem;
-  /* Example font size, adjust as needed. */
   font-family: 'Roboto', sans-serif;
-  /* Example font, ensure it matches your site's theme. */
   opacity: 0.7;
-  /* Optional: style to make it less prominent */
   animation: fadeIn 2s;
-  /* Gives a fade-in effect */
 }
 
 @keyframes fadeIn {
