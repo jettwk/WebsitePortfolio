@@ -1226,10 +1226,7 @@ Mobile Styling
 /* New media query for mobile devices */
 @media (max-width: 768px) {
 
-  body {
-    /*background-color: ;
-    background-image: none;*/
-  }
+ 
 
   nav h1 {
     font-size: 1.5rem;
@@ -1319,7 +1316,7 @@ Mobile Styling
     flex-wrap: wrap;
     gap: 20px;
     padding: 5px;
-    top-margin: 25px;
+    /*top-margin: 25px;*/
     margin: 0 auto;
     background-color: #5C4033;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -1573,4 +1570,41 @@ CAREER PAGE STYLING
   position: absolute;
   justify-content: space-between;
   opacitY: 0.7;
+  display: none;
+}
+
+.career-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.career-card {
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.career-card img {
+  width: 100%;
+  max-width: 30vw; /* Ensure the image takes up no more than 30% of the viewport width */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: none;
+}
+
+.career-card h1 {
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+
+.career-card p {
+  font-size: 1rem;
+  color: darkslategrey;
+  text-align: center;
 }
